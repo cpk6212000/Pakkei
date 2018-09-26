@@ -1,0 +1,37 @@
+main{
+    margin: 10px 20px;
+    overflow: scroll;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-card{
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+.gallery-card:hover{
+    border: 1px solid #777;
+}
+.img-container{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    object-position: 0 0;
+}
