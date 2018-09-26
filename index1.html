@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .bg{
+                /* The image used */
+            background-image: url("asset/img/bg.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            /* Place behind the navbar and footer */
+            z-index: -1;
+            /* Allow text over the background */
+            position: relative;
+        }
+        .bg-title{
+            position: absolute;
+            top: 40%;
+            left: 67%;
+            transform: translate(-60%, -33%);
+            color:#4A4a4a;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #4A4a4a;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #social-list{
+            list-style: none;
+            margin-left: -15px;
+        }
+        main{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<nav class='navbar navbar-expand-sm navbar-light bg-light fixed-top shadow py-3'>
+    <!-- Brand -->
+    <a class='navbar-brand ml-4 mr-md-5 mr-sm-3 active' href='index1.html'>
+        <i class='fas fa-home'></i>
+    </a>
+    <!-- Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class='collapse navbar-collapse' id='Navbar'>   
+    <div class='navbar-nav mr-auto'>
+    <a class='nav-item nav-link mx-md-3' href='about_me.html'>About Me</a>
+    <a class='nav-item nav-link mx-md-3' href='resume.html'>Resume</a>
+    <a class='nav-item nav-link mx-md-3' href='portfolio1.html'>Portfolio</a>
+    <a class='nav-item nav-link mx-md-3' href='contact.html'>Contact</a>
+    </div>
+    </div>
+    <!-- Social media icons -->
+    <div class='navbar-nav ml-auto d-none d-sm-flex mr-4'>
+        <a class='nav-item nav-link mx-md-1' href='https://www.facebook.com/pakkeic'><i class="fab fa-facebook-f"></i></a>
+        <a class='nav-item nav-link mx-md-1' href='https://www.instagram.com/pakkei_chau/'><i class="fab fa-instagram"></i></a>
+        <a class='nav-item nav-link mx-md-1' href='https://www.linkedin.com/in/pak-kei-chau-93382212b/'><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</nav>
+    <!-- Cover-->
+    <main>
+    <div class='container-fluid bg'>
+        <!-- Cover Title -->
+        <div class='bg-title'>
+            <h1 class='display-4 d-lg-inline d-none'>Pakkei Chau</h1>
+            <h1 class='display-5 d-lg-none'>Pakkei Chau</h1>
+        </div>
+    </div>
+    </main>
+    <!-- Footer -->
+    <div class='container-fluid bg-light shadow'>
+        <div class='row bg-light p-3'>
+            <div class='col-sm-3 offset-md-2 offset-sm-1 bg-light'>
+                <!-- Navigation Links -->
+                    <h6>Links</h6>
+                    <ul class="list-group list-group-flush">
+                            <li class='py-1 list-group-item bg-light'><a href='about_me.html'><small class='text-dark'>About Me</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='resume.html'><small class='text-dark'>Resume</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='portfolio1.html'><small class='text-dark'>Portfolio</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='contact_me.html'><small class='text-dark'>Contact</small></a></li> 
+                    </ul>
+            </div>
+            <div class='col-sm-2'></div>
+            <div class='col-sm-3 mt-3 mt-sm-0'>
+                <!-- Contact info -->
+                    <h6>Contact Me</h6>
+                    <ul id='social-list'>
+                        <li><small class='text-dark'>Email: pakkei.chau@gmail.com</small></li>
+                        <li><small class='text-dark'>Phone: 53446469</small></li>
+                        <li><i class='fab fa-facebook-f'></i></li>
+                        <li><i class='fab fa-instagram'></i></li>
+                        <li><i class='fab fa-linkedin-in'></i></li>   
+                    </ul>
+            </div>
+        </div>
+        <!--Copyright-->
+        <div class='row'>
+            <div class='col-12 bg-light'>
+                    <p class='text-center'><small>&copy; 2018 Copyright: Pakkei Chau</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

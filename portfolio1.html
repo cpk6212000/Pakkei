@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+        body,html{
+            padding: 30px 0px 0px 0px;
+            height: 100%;
+        }
+        .bg{
+                /* The image used */
+            background-image: url("asset/img/bg.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            /* Place behind the navbar and footer */
+            z-index: -1;
+            /* Allow text over the background */
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<nav class='navbar navbar-expand-sm navbar-light bg-light fixed-top shadow py-3'>
+    <!-- Brand -->
+    <a class='navbar-brand ml-4 mr-md-5 mr-sm-3 active' href='index1.html'>
+        <i class='fas fa-home'></i>
+    </a>
+    <!-- Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar Links -->
+    <div class='collapse navbar-collapse' id='Navbar'>   
+    <div class='navbar-nav mr-auto'>
+    <a class='nav-item nav-link mx-md-3' href='about_me.html'>About Me</a>
+    <a class='nav-item nav-link mx-md-3' href='resume.html'>Resume</a>
+    <a class='nav-item nav-link mx-md-3 active' href='portfolio1.html'>Portfolio</a>
+    <a class='nav-item nav-link mx-md-3' href='contact.html'>Contact</a>
+    </div>
+    </div>
+    <!-- Social media icons -->
+    <div class='navbar-nav ml-auto d-none d-sm-flex mr-4'>
+        <a class='nav-item nav-link mx-md-1' href='https://www.facebook.com/pakkeic'><i class="fab fa-facebook-f"></i></a>
+        <a class='nav-item nav-link mx-md-1' href='https://www.instagram.com/pakkei_chau/'><i class="fab fa-instagram"></i></a>
+        <a class='nav-item nav-link mx-md-1' href='https://www.linkedin.com/in/pak-kei-chau-93382212b/'><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</nav>
+    <!-- Portfolio -->
+    <div class='container-fluid bg'>
+        <div class='row mx-4'>
+            <div class='col-md-4 col-sm-6 mt-5'>
+                <div class='card shadow'>
+                    <img class='card-img-top' src='asset/img/dashboard.jpg' alt='Matthias Dashboard'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>Matthias Dashboard</h5>
+                        <p class='card-text'>This is a real-time scoring dashboard using the Google Chart API to generate the chart.</p>
+                        <a href='https://cpk6212000.github.io/Matthias-Dashboard/' target="_blank" class='btn btn-primary'>Go</a>
+                    </div>
+                </div>
+            </div>
+            <div class='col-md-4 col-sm-6 mt-5'>
+                    <div class='card shadow'>
+                        <img class='card-img-top' src='asset/img/panelCV.jpg' alt='Panel CV'>
+                        <div class='card-body'>
+                            <h5 class='card-title'>Panel CV</h5>
+                            <p class='card-text'>This is a Panel CV page of Pakkei Chau using an external layout framework.</p>
+                            <a href='https://cpk6212000.github.io/PanelCV/' target="_blank" class='btn btn-primary'>Go</a>
+                        </div>
+                    </div>
+            </div>
+            <div class='col-md-4 col-sm-6 mt-5'>
+                    <div class='card shadow'>
+                        <img class='card-img-top' src='asset/img/Personal Page.png' alt='Personal Page'>
+                        <div class='card-body'>
+                            <h5 class='card-title'>Personal Page</h5>
+                            <p class='card-text'>This is a Pakkei Chau's personal page.</p>
+                            <a href='index1.html' target="_blank" class='btn btn-primary'>Go</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class='row'></div>
+    </div>
+    <!-- Footer -->
+    <div class='container-fluid bg-light shadow'>
+        <div class='row bg-light p-3'>
+            <div class='col-sm-3 offset-md-2 offset-sm-1 bg-light'>
+                <!-- Navigation Links -->
+                    <h6>Links</h6>
+                    <ul class="list-group list-group-flush">
+                            <li class='py-1 list-group-item bg-light'><a href='about_me.html'><small class='text-dark'>About Me</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='resume.html'><small class='text-dark'>Resume</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='portfolio1.html'><small class='text-dark'>Portfolio</small></a></li>
+                            <li class='py-1 list-group-item bg-light'><a href='contact_me.html'><small class='text-dark'>Contact</small></a></li> 
+                    </ul>
+            </div>
+            <div class='col-sm-2'></div>
+            <div class='col-sm-3 mt-3 mt-sm-0'>
+                <!-- Contact info -->
+                    <h6>Contact Me</h6>
+                    <ul id='social-list'>
+                        <li><small class='text-dark'>Email: pakkei.chau@gmail.com</small></li>
+                        <li><small class='text-dark'>Phone: 53446469</small></li>
+                        <li><i class='fab fa-facebook-f'></i></li>
+                        <li><i class='fab fa-instagram'></i></li>
+                        <li><i class='fab fa-linkedin-in'></i></li>   
+                    </ul>
+            </div>
+        </div>
+        <!--Copyright-->
+        <div class='row'>
+            <div class='col-12 bg-light'>
+                    <p class='text-center'><small>&copy; 2018 Copyright: Pakkei Chau</small></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
